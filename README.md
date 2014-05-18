@@ -3,7 +3,11 @@ nutes
 
 PostgresQL import of USDA nutrient database.
 
-Requires: postgresql, but can be modified to work with MySQL or others.
+Requires:
+* curl
+* make
+* postgresql
+* go
 
 The Makefile will:
 
