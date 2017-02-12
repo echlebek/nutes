@@ -35,6 +35,9 @@ func main() {
 
 	for err == nil {
 		r, _, err = rd.ReadRune()
+		if err != nil {
+			break
+		}
 		switch r {
 		case '"':
 			switch lastR {
